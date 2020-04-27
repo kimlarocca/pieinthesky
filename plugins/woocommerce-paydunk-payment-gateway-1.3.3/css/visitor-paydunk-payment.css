@@ -1,0 +1,41 @@
+input#paydunk_button_oncart,
+.woocommerce input#paydunk_button_oncart,
+.woocommerce-page input#paydunk_button_oncart,
+#payment .place-order .paydunk-order-button {
+    display: inline-block !important;
+    cursor: pointer !important;
+    width: 200px !important;
+    height: 32px !important;
+    border: 0 none !important;
+    background: transparent url("../img/paydunklogo.png") no-repeat scroll 0 0 / 100% auto !important;
+    text-indent: 200% !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+}
+
+.paydunk_button_oncart {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#payment div.payment_box.payment_method_paydunk {
+    float: left;
+    width: 100%;
+}
+
+#payment div.payment_box.payment_method_paydunk .paydunk-video {
+    float: right;
+    display: inline-block;
+    width: 350px;
+    margin-top: -20px;
+}
+#payment div.payment_box.payment_method_paydunk .paydunk-video-description {
+    text-align: center;
+    width: 350px;
+}
+
+#pd-paydunkForm0Width {
+	width:0px;
+	overflow:hidden;
+	height:0px;
+}

@@ -1,0 +1,38 @@
+{
+    "name": "kalicode/woocomerce_paydunk_payment_gateway",
+    "description": "Paydunk payment gateway for woocommerce",
+    "homepage": "http://kalicode.com",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Habibillah ali",
+            "email": "habibillah@gmail.com",
+            "homepage": "https://profiles.wordpress.org/habibillah/",
+            "role": "Developer"
+        },
+        {
+            "name": "Leoware IT Solution",
+            "homepage": "http://www.leowareit.com",
+            "role": "Owner"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "authorizenet/authorizenet": "~1.8",
+        "paypal/rest-api-sdk-php": "~1.5",
+        "kalicode/credit-card-validator": "*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/habibillah/credit-card-validator.git"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "": "classes/"
+        }
+    }
+}
